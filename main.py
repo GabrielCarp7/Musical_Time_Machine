@@ -7,8 +7,14 @@ import requests
 Billboard Website: get top songs from a particular time
 
     - Scrape top 100 songs from a particular year
-    - Get all the titles of the songs
-    - Take the songs and create a Spotify Playlist
+    - Create a Spotify Playlist with the songs found
+    
+NEED TO ADD - custom details:
+
+    - access_token
+    - user_id
+    - playlist_name
+    - playlist_description
 
 """
 input_date = input("Write a date (YYYY/MM/DD): ").split("/")
